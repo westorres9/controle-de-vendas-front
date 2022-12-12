@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --primary-bg-color: #407bff;
+    --secondary-bg-color: #FFF;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: unset;
+}
+
+.dsv-header {
+    background-color: var(--primary-bg-color);
+    color: var(--secondary-bg-color);
+    display: flex;
+    align-items: center;
+    height: 70px;
+}
+
+.dsv-container {
+    display: flex;
+    width: 90%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.dsv-container h1{
+    font-size: 24px;
+}
